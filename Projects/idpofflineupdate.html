@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Mahdy </title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>idpofflineupdate</h1>
+				<p>IDP offline update made easier
+Despite IDP is not the ultimate security tool, yet it still being used around.
+
+One of the main issues with IDP installed on security devices, not allowing the security device to have internet access to grep the database updates, leaving the IDP DB outdated.
+
+If you are dealing with Juniper IDP, you’ll find the process of updating the DB is a real pain, getting some XML files & then extracting others.
+
+Here’s a script that will make it easier to download and sort the DB files, and from there you can move the files to the security nodes.
+
+Usage: 
+
+python idpofflineupdate.py -u <username> -o <output folder location> -i <input file contains security nodes IPs or names>
+
+Note: if you’re going to use the nodes’ names in the file make sure host file /DNS is used to map them to IPs.
+Github link:
+
+<li><a href="https://github.com/mmento/idpofflineupdate">Code</a></li>
+
+Official link from Juniper on the IDP DB update process: 
+
+Juniper IDP DB Update
+</p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+		</footer>
+	</body>
+</html>
