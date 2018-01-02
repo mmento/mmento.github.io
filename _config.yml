@@ -1,3 +1,4 @@
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-sitemap
+  gem "github-pages", group: :jekyll_plugins
